@@ -1,0 +1,21 @@
+package day2;
+
+public class AppConfig {
+	private String parameterA;
+	private String praameterB;
+	public String getParameterA() {
+		return parameterA;
+	}
+	public String getPraameterB() {
+		return praameterB;
+	}
+	
+	public AppConfig(){
+		readConfig();
+	}
+	
+	private void readConfig(){
+		
+	}
+
+}
